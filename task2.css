@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+
+
+main header {
+	background-color: darkblue;
+	height: 30px;
+	width: 90%;
+	margin: 0 auto;
+}
+main section {
+	width: 90%;
+	display: inline;
+	margin:0 auto;
+	
+}
+
+#left-aside {
+	margin-left: 5%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: purple;
+	width: 25%;
+	height: 300px;
+	float: left;
+
+}
+#article {
+	margin-right: 5%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: green;
+	width: 63%;
+	height: 300px;
+	float: right;
+	
+}
+main footer{
+	margin:0 auto;
+	width: 90%;
+	background-color: blue;
+	height: 30px;
+	clear: both;
+}
