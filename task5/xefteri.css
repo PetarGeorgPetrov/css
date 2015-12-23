@@ -1,0 +1,44 @@
+@CHARSET "UTF-8";
+
+main header {
+	width: 95%;
+	border-bottom: 1px solid black;
+	margin: 0 auto;
+
+ }
+ 
+section article {
+	width: 90%;
+	border-right: 1px solid Green;
+	border-bottom: 1px solid Green;
+	border-left: 1px solid Green;
+	margin: 0 auto;
+}
+
+article > h3 {
+	
+	margin: 0 auto;
+	background-color: Green;
+	color: white;
+	margin-top:10px;
+}
+
+#top {
+	width: 90%;
+	border: 1px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#header {
+	font-size: 22px;
+	color: white;
+	background-color: DodgerBlue;
+	padding-left: 10px;
+}
+
+.shadow {
+	font-weight:lighter;
+	text-shadow:1px 1px 1px white;
+	}
